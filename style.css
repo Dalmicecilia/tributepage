@@ -42,6 +42,9 @@ li a {
   display: block;
   padding: 8px;
 }
+#img-div {
+  position: relative;
+}
 #image {
   max-width: 450px;
   height: auto;
@@ -50,10 +53,10 @@ li a {
   border-radius: 15px;
 }
 figcaption {
-  position: relative;
-  top: -30px;
-  left: 350px;
-  font-size: 20px;
+  position: absolute;
+    bottom: 10px;
+    left: 350px;
+    font-size: 20px;
 }
 #first {
   width: 60%;
